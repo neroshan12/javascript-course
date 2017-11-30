@@ -39,22 +39,34 @@ console.log(fullAge);
 // alert(name);
 
 // Lecture: Operators
-var now = 2016;
-var birthYear = 2017 - now;
+// var now = 2016;
+// var birthYear = 2017 - now;
+//
+// birthYear = now - 26 * 2;
+// // 2017 -52
+// // 1964
+//
+// console.log(birthYear);
+//
+// var ageNero = 26;
+// var ageBrother = 27;
+//
+// ageNero = ageBrother = (3 + 5) * 4 - 6;
+//
+// ageNero++; // ageNero = ageNero + 1
+// ageBrother *= 2; // ageBrother = ageBrother * 2
+//
+// console.log(ageNero);
+// console.log(ageBrother);
 
-birthYear = now - 26 * 2;
-// 2017 -52
-// 1964
+// Lecture 4 : if/else
 
-console.log(birthYear);
+var name = 'Nero';
+var age = 26;
+var isTall = 'no';
 
-var ageNero = 26;
-var ageBrother = 27;
-
-ageNero = ageBrother = (3 + 5) * 4 - 6;
-
-ageNero++; // ageNero = ageNero + 1
-ageBrother *= 2; // ageBrother = ageBrother * 2
-
-console.log(ageNero);
-console.log(ageBrother);
+if (isTall === 'yes') {
+  console.log(name + ' is tall!');
+} else {
+  console.log(name + ' is not tall');
+}

@@ -100,3 +100,23 @@ console.log(fullAge);
 //   default:
 //     console.log('Nero does something else');
 // }
+
+// Coding challenge
+
+console.log('Hello players, welcome to the game!');
+player_1_age = prompt('Player one, age:');
+player_1_height = prompt('Player one, height');
+
+player_2_age = prompt('Player two, age:');
+player_2_height = prompt('Player two, height:');
+
+player_1_score = player_1_height + 5 * player_1_age;
+player_2_score = player_2_height + 5 * player_2_age;
+
+if (player_1_score > player_2_score) {
+  console.log('Player 1 wins');
+} else if (player_1_score < player_2_score) {
+  console.log('player 2 wins');
+} else {
+  console.log('Draw');
+}

@@ -60,13 +60,43 @@ console.log(fullAge);
 // console.log(ageBrother);
 
 // Lecture 4 : if/else
+//
+// var name = 'Nero';
+// var age = 26;
+// var isTall = 'no';
+//
+// if (isTall === 'yes') {
+//   console.log(name + ' is tall!');
+// } else {
+//   console.log(name + ' is not tall');
+// }
 
-var name = 'Nero';
-var age = 26;
-var isTall = 'no';
+// Lecture: Boolean logic and switch
 
-if (isTall === 'yes') {
-  console.log(name + ' is tall!');
-} else {
-  console.log(name + ' is not tall');
-}
+// var age = 25;
+//
+// if (age < 20) {
+//   console.log('Nero is a teenager');
+// } else if (age > 20 && age < 30) {
+//   console.log('Nero is a young man');
+// } else {
+//   console.log('Nero is a man');
+// }
+//
+// var job = 'student';
+//
+// job = prompt('What does Nero do?');
+//
+// switch (job) {
+//   case 'student':
+//     console.log('Nero is a makers student');
+//     break;
+//   case 'driver':
+//     console.log('Nero drives a cab in Lisbon');
+//     break;
+//   case 'cop':
+//     console.log('Nero helps fight crime');
+//     break;
+//   default:
+//     console.log('Nero does something else');
+// }

@@ -102,21 +102,45 @@ console.log(fullAge);
 // }
 
 // Coding challenge
+//
+// console.log('Hello players, welcome to the game!');
+// player_1_age = prompt('Player one, age:');
+// player_1_height = prompt('Player one, height');
+//
+// player_2_age = prompt('Player two, age:');
+// player_2_height = prompt('Player two, height:');
+//
+// player_1_score = player_1_height + 5 * player_1_age;
+// player_2_score = player_2_height + 5 * player_2_age;
+//
+// if (player_1_score > player_2_score) {
+//   console.log('Player 1 wins');
+// } else if (player_1_score < player_2_score) {
+//   console.log('player 2 wins');
+// } else {
+//   console.log('Draw');
+// }
 
-console.log('Hello players, welcome to the game!');
-player_1_age = prompt('Player one, age:');
-player_1_height = prompt('Player one, height');
+// Lecture: functions
+//
+// function calculateAge(yearOfBirth) {
+//   var age = 2017 - yearOfBirth;
+//   return age;
+// }
+//
+// var birthYearNero = prompt('Year of birth please');
+//
+// console.log('Your age is ' + calculateAge(birthYearNero));
+//
+// function yearsUntilRetirement(name, yearOfBirth) {
+//   var age = calculateAge(yearOfBirth);
+//   var retirement = 65 - age;
+//   if (retirement >= 0) {
+//     console.log(name + ' has ' + retirement + ' years to retire.');
+//   } else {
+//     console.log(name + ' has already retired.');
+//   }
+// }
 
-player_2_age = prompt('Player two, age:');
-player_2_height = prompt('Player two, height:');
-
-player_1_score = player_1_height + 5 * player_1_age;
-player_2_score = player_2_height + 5 * player_2_age;
-
-if (player_1_score > player_2_score) {
-  console.log('Player 1 wins');
-} else if (player_1_score < player_2_score) {
-  console.log('player 2 wins');
-} else {
-  console.log('Draw');
-}
+yearsUntilRetirement('Nero', 1991);
+yearsUntilRetirement('The Queen', 1927);

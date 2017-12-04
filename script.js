@@ -193,3 +193,35 @@ console.log(fullAge);
 // } else {
 //   console.log('My name is not Nero');
 // }
+
+// Lecture: Objects (Key-value pairs in no particular order)
+var nero = {
+  name: 'Nero',
+  lastName: 'Siva',
+  yearOfBirth: 1991,
+  isMarried: false,
+  job: 'student'
+};
+// object literal
+
+console.log(nero.name);
+console.log(nero['lastName']);
+
+var xyz = 'isMarried';
+console.log(nero[xyz]); //xyz = isMarried
+
+nero.job = 'Searching for a job'; //data mutation
+console.log(nero.job);
+nero['job'] = 'Programmer';
+console.log(nero.job);
+
+console.log(nero);
+
+var jane = new Object();
+jane.name = 'Jane';
+jane.lastName = 'Smith';
+jane['yearOfBirth'] = 1969;
+jane['job'] = 'retired';
+jane.isMarried = true;
+
+console.log(jane);

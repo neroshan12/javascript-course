@@ -141,6 +141,29 @@ console.log(fullAge);
 //     console.log(name + ' has already retired.');
 //   }
 // }
+//
+// yearsUntilRetirement('Nero', 1991);
+// yearsUntilRetirement('The Queen', 1927);
 
-yearsUntilRetirement('Nero', 1991);
-yearsUntilRetirement('The Queen', 1927);
+// Lecture: Statements and expressions
+
+// function statments:
+// function someFun(par) {
+//   //code
+// }
+//
+// statement = performs an action
+//
+
+// function expressions
+// var someFun = function(par) {
+//   //code
+// }
+//
+// e.g. if(x===5) {
+//   //do something
+// } // nothing is stored, doesnt produce a variable or immediate product
+//
+// expression produces a value/ some outcome
+// e.g. 3 + 4
+// var x = 3;

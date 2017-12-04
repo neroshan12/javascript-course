@@ -282,3 +282,36 @@ console.log(fullAge);
 // nero.calculateAge();
 // console.log(nero);
 // console.log(nero.age);
+
+// Lecture: loops and iterators
+// for loops
+// for (var i = 0; i < 10; i++) {
+//   // start, end, increment. i = i + 1
+//   console.log(i);
+// }
+//
+// var names = ['Beckham', 'Neymar', 'Ronaldo', 'Messi'];
+//
+// for (var i = names.length - 1; i >= 0; i--) {
+//   console.log(names[i]);
+// }
+
+// while loops
+// var i = 0;
+// while (i < names.length) {
+//   console.log(names[i]);
+//   i++;
+// }
+// for (var i = 1; i <= 5; i++) {
+//   console.log(i);
+//   if (i === 3) {
+//     break;
+//   }
+// }
+
+// for (var i = 1; i <= 5; i++) {
+//   if (i === 3) {
+//     continue;
+//   }
+//   console.log(i); // will print 1,2,4,5
+// }

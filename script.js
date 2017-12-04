@@ -167,3 +167,29 @@ console.log(fullAge);
 // expression produces a value/ some outcome
 // e.g. 3 + 4
 // var x = 3;
+
+// Lecture: Arrays;
+
+// var names = ['Nero', 'Beckham', 'Ronaldo'];
+// var years = new Array(1991, 1975, 1985);
+//
+// console.log(names[0]);
+// names[1] = 'Messi';
+// console.log(names);
+//
+// names.push('Suarez'); //add to end
+// console.log(names);
+// names.unshift('Neymar'); //add to beginning
+// console.log(names);
+// names.pop(); //removes last value
+// console.log(names);
+// names.shift(); //removes first
+// console.log(names);
+// var zeroth = names.indexOf('Nero');
+// console.log(zeroth);
+//
+// if (names.indexOf('Nero') === 0) {
+//   console.log('My name is Nero');
+// } else {
+//   console.log('My name is not Nero');
+// }

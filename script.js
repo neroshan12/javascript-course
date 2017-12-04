@@ -315,3 +315,29 @@ console.log(fullAge);
 //   }
 //   console.log(i); // will print 1,2,4,5
 // }
+
+// Coding challenge 2
+
+// var years = [2000, 1992, 1920];
+//
+// function printFullAge(years) {
+//   var ages = [];
+//   var fullAges = [];
+//   for (var i = 0; i < years.length; i++) {
+//     ages[i] = 2017 - years[i];
+//   }
+//
+//   for (i = 0; i < ages.length; i++) {
+//     if (ages[i] >= 18) {
+//       console.log('Person ' + (i + 1) + ' is ' + ages[i] + ' and over 18');
+//       fullAges.push(true);
+//     } else {
+//       console.log('Person ' + (i + 1) + ' is ' + ages[i] + ' and under 18');
+//       fullAges.push(false);
+//     }
+//   }
+//   return fullAges;
+// }
+//
+// var full_1 = printFullAge(years);
+// var full_2 = printFullAge([2012, 1900, 1999]);

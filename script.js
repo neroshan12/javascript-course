@@ -225,3 +225,60 @@ console.log(fullAge);
 // jane.isMarried = true;
 //
 // console.log(jane);
+
+// Lecture: Objects and methods
+
+// var nero = {
+//   name: 'Nero',
+//   lastName: 'Siva',
+//   yearOfBirth: 1991,
+//   isMarried: false,
+//   job: 'student',
+//   colours: ['Blue', 'black', 'red'],
+//   calculateAge: function(yearOfBirth) {
+//     // same as var calculateAge function(yearOfBirth)
+//     return 2017 - yearOfBirth;
+//   }
+// };
+//
+// console.log(nero);
+// console.log(nero.job);
+// console.log(nero.colours[0]);
+
+// v1.0
+// var nero = {
+//   name: 'Nero',
+//   lastName: 'Siva',
+//   yearOfBirth: 1991,
+//   isMarried: false,
+//   job: 'student',
+//   colours: ['Blue', 'black', 'red'],
+//   calculateAge: function() {
+//     // same as var calculateAge function(yearOfBirth)
+//     return 2017 - this.yearOfBirth;
+//   }
+// };
+//
+// console.log(nero.calculateAge());
+//
+// var age = nero.calculateAge();
+// nero.age = age; // giving nero object and age
+
+// v2.0
+// var nero = {
+//   name: 'Nero',
+//   lastName: 'Siva',
+//   yearOfBirth: 1991,
+//   isMarried: false,
+//   job: 'student',
+//   colours: ['Blue', 'black', 'red'],
+//   calculateAge: function() {
+//     // same as var calculateAge function(yearOfBirth)
+//     //return 2017 - this.yearOfBirth;
+//     this.age = 2017 - this.yearOfBirth;
+//   }
+// };
+//
+// nero.calculateAge();
+// console.log(nero);
+// console.log(nero.age);

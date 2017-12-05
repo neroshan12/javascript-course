@@ -58,23 +58,23 @@
 
 ///////////////////////////////////////
 // Lecture: Scoping
-
+// answers the question - where can we access a certain variable
+// each new function creates a scope: the environment/space in which the variables it defines are accessible
+// the global scope will never have an access to variables defined in a function i.e. first/second etc scope unless it is returned
 // First scoping example
 
-/*
-var a = 'Hello!';
-first();
-
-function first() {
-    var b = 'Hi!';
-    second();
-
-    function second() {
-        var c = 'Hey!';
-        console.log(a + b + c);
-    }
-}
-*/
+// var a = 'Hello!';
+// first();
+//
+// function first() {
+//   var b = 'Hi!';
+//   second();
+//
+//   function second() {
+//     var c = 'Hey!';
+//     console.log(a + b + c);
+//   }
+// }
 
 // Example to show the differece between execution stack and scope chain
 
@@ -96,6 +96,10 @@ function third() {
     var d = 'John';
     console.log(a + b + c + d);
 }
+// = c is not defined
+// second function can call the third one. Third was called in second. Possible because of scoping and the scope chain
+// second has access to the global scope where third is defined
+// execution stack is different to the scope chain
 */
 
 ///////////////////////////////////////

@@ -341,3 +341,5 @@ console.log(fullAge);
 //
 // var full_1 = printFullAge(years);
 // var full_2 = printFullAge([2012, 1900, 1999]);
+
+// Lecture
